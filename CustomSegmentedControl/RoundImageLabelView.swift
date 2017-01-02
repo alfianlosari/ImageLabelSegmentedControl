@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RoundImageLabelView.swift
 //  CustomSegmentedControl
 //
 //  Created by Alfian Losari on 12/31/16.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-
+class RoundImageLabelView: UIView {
+    
+    
+    
+    
 }
-

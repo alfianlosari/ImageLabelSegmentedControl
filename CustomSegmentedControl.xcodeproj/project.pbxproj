@@ -12,6 +12,13 @@
 		6B1ED4081E173326003D8C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ED4061E173326003D8C4D /* Main.storyboard */; };
 		6B1ED40A1E173326003D8C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ED4091E173326003D8C4D /* Assets.xcassets */; };
 		6B1ED40D1E173326003D8C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ED40B1E173326003D8C4D /* LaunchScreen.storyboard */; };
+		6B1ED4151E17337D003D8C4D /* RoundImageTextSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ED4141E17337D003D8C4D /* RoundImageTextSegmentedControl.swift */; };
+		6B1ED4171E17450F003D8C4D /* RoundBorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ED4161E17450F003D8C4D /* RoundBorderImageView.swift */; };
+		6B1ED4191E17803A003D8C4D /* RoundImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ED4181E17803A003D8C4D /* RoundImageLabelView.swift */; };
+		6B1ED41B1E178063003D8C4D /* RoundImageLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ED41A1E178063003D8C4D /* RoundImageLabelView.xib */; };
+		6B1ED41D1E1780D0003D8C4D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ED41C1E1780D0003D8C4D /* SegmentedControl.swift */; };
+		6B1ED41F1E1819C1003D8C4D /* RoundImageStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ED41E1E1819C1003D8C4D /* RoundImageStackView.xib */; };
+		6B1ED4211E181B32003D8C4D /* RoundImageStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ED4201E181B32003D8C4D /* RoundImageStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		6B1ED4091E173326003D8C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1ED40C1E173326003D8C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1ED40E1E173326003D8C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1ED4141E17337D003D8C4D /* RoundImageTextSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageTextSegmentedControl.swift; sourceTree = "<group>"; };
+		6B1ED4161E17450F003D8C4D /* RoundBorderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBorderImageView.swift; sourceTree = "<group>"; };
+		6B1ED4181E17803A003D8C4D /* RoundImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageLabelView.swift; sourceTree = "<group>"; };
+		6B1ED41A1E178063003D8C4D /* RoundImageLabelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundImageLabelView.xib; sourceTree = "<group>"; };
+		6B1ED41C1E1780D0003D8C4D /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		6B1ED41E1E1819C1003D8C4D /* RoundImageStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundImageStackView.xib; sourceTree = "<group>"; };
+		6B1ED4201E181B32003D8C4D /* RoundImageStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,13 @@
 			children = (
 				6B1ED4021E173326003D8C4D /* AppDelegate.swift */,
 				6B1ED4041E173326003D8C4D /* ViewController.swift */,
+				6B1ED4201E181B32003D8C4D /* RoundImageStackView.swift */,
+				6B1ED41E1E1819C1003D8C4D /* RoundImageStackView.xib */,
+				6B1ED4181E17803A003D8C4D /* RoundImageLabelView.swift */,
+				6B1ED41A1E178063003D8C4D /* RoundImageLabelView.xib */,
+				6B1ED4161E17450F003D8C4D /* RoundBorderImageView.swift */,
+				6B1ED4141E17337D003D8C4D /* RoundImageTextSegmentedControl.swift */,
+				6B1ED41C1E1780D0003D8C4D /* SegmentedControl.swift */,
 				6B1ED4061E173326003D8C4D /* Main.storyboard */,
 				6B1ED4091E173326003D8C4D /* Assets.xcassets */,
 				6B1ED40B1E173326003D8C4D /* LaunchScreen.storyboard */,
@@ -124,8 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1ED41F1E1819C1003D8C4D /* RoundImageStackView.xib in Resources */,
 				6B1ED40D1E173326003D8C4D /* LaunchScreen.storyboard in Resources */,
 				6B1ED40A1E173326003D8C4D /* Assets.xcassets in Resources */,
+				6B1ED41B1E178063003D8C4D /* RoundImageLabelView.xib in Resources */,
 				6B1ED4081E173326003D8C4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1ED4191E17803A003D8C4D /* RoundImageLabelView.swift in Sources */,
 				6B1ED4051E173326003D8C4D /* ViewController.swift in Sources */,
+				6B1ED4171E17450F003D8C4D /* RoundBorderImageView.swift in Sources */,
+				6B1ED4151E17337D003D8C4D /* RoundImageTextSegmentedControl.swift in Sources */,
+				6B1ED41D1E1780D0003D8C4D /* SegmentedControl.swift in Sources */,
+				6B1ED4211E181B32003D8C4D /* RoundImageStackView.swift in Sources */,
 				6B1ED4031E173326003D8C4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

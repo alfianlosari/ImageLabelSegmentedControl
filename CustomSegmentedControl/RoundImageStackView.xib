@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoundImageStackView" customModule="CustomSegmentedControl" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="ayw-0o-MsN" id="6ll-NE-UDv"/>
+                <outlet property="roundView" destination="Edy-91-N0n" id="Uxb-gX-lMI"/>
+                <outlet property="textLabel" destination="Wh9-XC-DuN" id="cS3-SQ-2aF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="291"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7nq-o8-3aP">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="291"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edy-91-N0n" customClass="RoundView" customModule="CustomSegmentedControl" customModuleProvider="target">
+                            <rect key="frame" x="105" y="0.0" width="60" height="60"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="male" translatesAutoresizingMaskIntoConstraints="NO" id="ayw-0o-MsN">
+                                    <rect key="frame" x="15.5" y="8" width="30" height="45"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="ayw-0o-MsN" firstAttribute="centerY" secondItem="Edy-91-N0n" secondAttribute="centerY" id="0Vg-Ny-fRH"/>
+                                <constraint firstAttribute="width" constant="60" id="bZd-CK-5s9"/>
+                                <constraint firstItem="ayw-0o-MsN" firstAttribute="centerX" secondItem="Edy-91-N0n" secondAttribute="centerX" id="cA5-R2-hIz"/>
+                                <constraint firstItem="ayw-0o-MsN" firstAttribute="width" secondItem="Edy-91-N0n" secondAttribute="width" multiplier="0.5" id="gU6-MQ-sKX"/>
+                                <constraint firstAttribute="width" secondItem="Edy-91-N0n" secondAttribute="height" multiplier="1:1" id="hS8-WF-Iu7"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-XC-DuN">
+                            <rect key="frame" x="114" y="70" width="42" height="221"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7nq-o8-3aP" secondAttribute="trailing" id="Ig7-sz-OgF"/>
+                <constraint firstAttribute="bottom" secondItem="7nq-o8-3aP" secondAttribute="bottom" id="KWc-db-trI"/>
+                <constraint firstItem="7nq-o8-3aP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WeP-vR-Tvp"/>
+                <constraint firstItem="7nq-o8-3aP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bw8-tj-eqZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-35" y="-204"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="male" width="43" height="45"/>
+    </resources>
+</document>
